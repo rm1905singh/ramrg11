@@ -8,3 +8,8 @@ resource "azurerm_resource_group" "rgblock1" {
   location = "Westus"
 
 }
+resource "azurerm_resource_group" "rgblock2" {
+  name     = "rm-rg3"
+  location = "east us"
+
+}
